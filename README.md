@@ -30,35 +30,35 @@ Make sure you have these installed :
 ## Running Backend Server
 
 Navigate to backend folder
-Run `npm install` to download all the dependencies
-Run `npm build` to compile the code
-Run `npm run start:dev` to run the server/compiled code
+Run `npm install` to download all the dependencies</br>
+Run `npm build` to compile the code</br>
+Run `npm run start:dev` to run the server/compiled code</br>
 
 ## Running Backend Test Cases
 
-Run `npm install` to download all the dependencies
-Navigate to backend folder
-Run `npm run test` to run the test cases provided
+Run `npm install` to download all the dependencies</br>
+Navigate to backend folder</br>
+Run `npm run test` to run the test cases provided</br>
 
-API can be tested using postman by making a get request using inputNumber as the query parameter to fetch the results.
+API can be tested using postman by making a get request using inputNumber as the query parameter to fetch the results.</br>
 
-Example of a sample postman request url is given below:-
+Example of a sample postman request url is given below:-</br>
 
-`http://localhost:4000/findPrimeMedian/median?inputNumber=10`
+`http://localhost:4000/findPrimeMedian/median?inputNumber=10`</br>
 
 ## Running Frontend Server
 
-Navigate to frontend folder
-Run `npm install` to download all the dependencies
-Run `npm run start` to run the server
+Navigate to frontend folder</br>
+Run `npm install` to download all the dependencies</br>
+Run `npm run start` to run the server</br>
 
 
 ## Running Frontend Test Cases
 
-Navigate to frontend folder
-Run `npm install` to download all the dependencies
-Run `npm test` to run the server
+Navigate to frontend folder</br>
+Run `npm install` to download all the dependencies</br>
+Run `npm test` to run the server</br>
 
-React application will start running at `http://localhost:3000/`
+React application will start running at `http://localhost:3000/`</br>
 
 
