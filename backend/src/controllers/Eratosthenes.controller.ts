@@ -8,8 +8,13 @@ export class EratosthenesController {
         this.eratosthenesService = new EratosthenesService();
     }
 
-    testingFunction(req: Request, res: Response){
-        const message = this.eratosthenesService.printMessage();
-        res.send(message);
+    getMedianPrimeNumbers(req: Request, res: Response){
+        const inputNumber = Number(req.query.inputNumber);
+        if (isNaN(inputNumber) || inputNumber <= 0){
+            res.status(400).send('The number you have entered is invalid. Please enter a positive number');
+        }else{
+            const medianPrimeNumbers = this.eratosthenesService.findMedianPrimes(inputNumber);
+            res.send({ medianPrimeNumbers });
+        }
     }
 }

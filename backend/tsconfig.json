@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es2016",                                  
+    "target": "ESNext",                                  
     "lib": ["es6"],                                      
     "module": "commonjs",                                
     "rootDir": "src",                                    
@@ -12,5 +12,8 @@
     "strict": true,                                      
     "noImplicitAny": true,                               
     "skipLibCheck": true                                 
-  }
+  },
+  "include": [
+    "src/**/*.ts",
+  ]
 }
