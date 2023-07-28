@@ -29,7 +29,7 @@ Make sure you have these installed :
 
 ## Running Backend Server
 
-Navigate to backend folder
+Navigate to "backend" folder</br>
 Run `npm install` to download all the dependencies</br>
 Run `npm build` to compile the code</br>
 Run `npm run start:dev` to run the server/compiled code</br>
@@ -48,7 +48,7 @@ Example of a sample postman request url is given below:-</br>
 
 ## Running Frontend Server
 
-Navigate to frontend folder</br>
+Navigate to "frontend" folder</br>
 Run `npm install` to download all the dependencies</br>
 Run `npm run start` to run the server</br>
 
