@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:dev": "npx nodemon",
+    "start:dev": "nodemon ./build/index.js",
     "build": "rimraf ./build && tsc",
     "test": "mocha --require ts-node/register src/test/**/*.ts --module commonjs"
   },
