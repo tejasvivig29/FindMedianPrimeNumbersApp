@@ -61,4 +61,13 @@ Run `npm test` to run the server</br>
 
 React application will start running at `http://localhost:3000/`</br>
 
+## Answering Questions asked with the task/assignment
+
+Answer 1. Yes, I do have production-level experience in working on NodeJS projects. It has been around 7 years as of now working on NodeJS projects personally/professionally.<br/>
+
+Answer 2. Yes, I do have production-level experience in working on NodeJS projects. It has been around 5 years as of now working on NodeJS projects personally/professionally.<br/>
+
+Answer 3. My full name is `TEJASVI VIG`.
+
+
 
